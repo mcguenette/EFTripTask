@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFTripTask", "EFTripTask\EFTripTask.csproj", "{ADA1D9E6-153D-44B5-B781-75AAFF274529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPDAL", "IPDAL\IPDAL.csproj", "{8F294190-6EBC-4A41-AAD0-29BDE7E861F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPBLL", "IPBLL\IPBLL.csproj", "{68C7155A-8A79-4A38-8E16-5640A34CB02C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADA1D9E6-153D-44B5-B781-75AAFF274529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA1D9E6-153D-44B5-B781-75AAFF274529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA1D9E6-153D-44B5-B781-75AAFF274529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA1D9E6-153D-44B5-B781-75AAFF274529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F294190-6EBC-4A41-AAD0-29BDE7E861F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F294190-6EBC-4A41-AAD0-29BDE7E861F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F294190-6EBC-4A41-AAD0-29BDE7E861F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F294190-6EBC-4A41-AAD0-29BDE7E861F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C7155A-8A79-4A38-8E16-5640A34CB02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C7155A-8A79-4A38-8E16-5640A34CB02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C7155A-8A79-4A38-8E16-5640A34CB02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C7155A-8A79-4A38-8E16-5640A34CB02C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEBA0D90-AA4E-40CA-A025-A9CF856DA8B7}
+	EndGlobalSection
+EndGlobal

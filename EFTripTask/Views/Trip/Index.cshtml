@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        loadData();
+    })
+
+    function loadData() {
+        $.ajax({
+            url: "/Trip/",
+            type: "GET",
+            contentType: "application/json",
+            dataType: "json",
+            success: function(response) {
+                var html = '';
+                $.each(response, function (key, item) {
+                    html += '<tr>'
+                    html += '<td>' + item.Destination + '</td>';
+                    html += '<td>' + item.Description + '</td>';
+                    html += '<td>' + item.StartDate + '</td>';
+                    html += '<td>' + item.EndDate + '</td>';
+                    html += '</tr>'
+                });
+                $('.tbody').html(html);
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        })
+    }
+</script>
+
+<h2>My upcoming trips</h2>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <td>Destination</td>
+            <td>Description</td>
+            <td>Trip Start Date</td>
+            <td>Trip End Date</td>
+        </tr>
+    </thead>
+    <tbody class="tbody">
+        @*Trip Records will be populated here*@
+    </tbody>
+</table>
